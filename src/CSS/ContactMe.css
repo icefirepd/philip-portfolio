@@ -1,0 +1,60 @@
+/* 
+File Name: ContactMe.css
+Student's Name: Fang Dou
+StudentID: 301381266
+Date: 09-28-2024
+*/
+
+/* Contact Me Main */
+.contact-me {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    color: black
+}
+
+/* Contact Form Inputs and Textarea */
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Contact Form Button */
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+}
+
+/* Contact Form Button Hover State */
+.contact-form button:hover {
+    background-color: #555;
+}
+
+/* Contact Info Section */
+.contact-info {
+    width: 100%;
+    text-align: center;
+    margin-top: 8rem;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+    color: black;
+}

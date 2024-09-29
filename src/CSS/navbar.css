@@ -1,0 +1,50 @@
+/* 
+File Name: navbar.css
+Student's Name: Fang Dou
+StudentID: 301381266
+Date: 09-28-2024
+*/
+
+/* Navbar Main Styles */
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Styles */
+.logo {
+    height: 3rem;
+}
+
+/* Menu Styles */
+.desktopMenu {
+    display: flex;
+    align-items: center;
+}
+
+/* Menu List Item */
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+/* Menu List Item Hover State */
+.desktopMenuListItem:hover {
+    color: orange;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid orange;
+}

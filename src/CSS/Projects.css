@@ -1,0 +1,56 @@
+/* 
+File Name: Projects.css
+Student's Name: Fang Dou
+StudentID: 301381266
+Date: 09-28-2024
+*/
+
+/* Projects Main Section */
+.projects {
+    padding: 2rem;
+    color: black;
+}
+
+/* Project Card Styles */
+.project-card {
+    background-color: #fff;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    transition: transform 0.3s ease;
+    color: black;
+}
+
+/* Project Card Hover Effect */
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Logo */
+.project-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 65px;
+}
+
+/* Project Title */
+.project-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Project Card Paragraph */
+.project-card p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Project Card Strong Text */
+.project-card strong {
+    color: #333;
+    font-weight: bold;
+}

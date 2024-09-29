@@ -1,0 +1,53 @@
+/* 
+File Name: Services.css
+Student's Name: Fang Dou
+StudentID: 301381266
+Date: 09-28-2024
+*/
+
+/* Services Main Section */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    color: black;
+}
+
+/* Service Card Styles */
+.service-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Service Card Hover Effect */
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Service Card Heading */
+.service-card h2 {
+    font-size: 1.3rem;
+    color: #333;
+}
+
+/* Service Card Paragraph */
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Service Card Image */
+.service-card img {
+    width: 10rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    justify-content: center;
+}

@@ -1,0 +1,68 @@
+/* 
+File Name: HomePage.css
+Student's Name: Fang Dou
+StudentID: 301381266
+Date: 09-28-2024
+*/
+
+/* Main Intro Section */
+#intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* My image */
+.bg {
+    position: absolute;
+    bottom: 0;
+    right: 4rem;
+    z-index: -1;
+    object-fit: cover;
+    height: 90vh;
+}
+
+/* Self-intro Content */
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+
+/* The Hello word in self-intro */
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+    color: black;
+}
+
+/* Self-intro the name */
+.introName {
+    color: orangered;
+}
+
+/* Self-intro rest of the paragraph */
+.introPara {
+    color: black;
+    font-size: large;
+    font-weight: 300;
+}
+
+/* Ccontact Me Button */
+.btn {
+    width: 10rem;
+    text-align: center;
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border-radius: 2rem;
+    font-size: large;
+}
